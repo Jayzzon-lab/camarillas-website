@@ -1,0 +1,43 @@
+#top {
+    position: fixed;
+    background-color: #30251F;
+    width: 100%;
+    height: 8%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+
+.top.nav {
+    color: #D8C3A5;
+    padding-left: 10px;
+    gap: 40px;
+    border-top: 20px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 30px;
+
+}
+
+.top.nav:hover{
+    color: 	#A68F78;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #FAF7F0;
+}
