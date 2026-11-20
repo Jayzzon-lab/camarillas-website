@@ -39,5 +39,25 @@
 }
 
 body{
-    background-color: #FAF7F0;
+    margin: 0;
+    background-image: url("../images/bg.jpg");
+    background-size: 40% auto;
+    background-attachment: fixed;
+    
+}
+
+footer{
+    background-color: #D8C3A5;
+    color: #70513D;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.footer{
+    padding: 40px;
+}
+
+footer p{
+    padding: 0;
 }
