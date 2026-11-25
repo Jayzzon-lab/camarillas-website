@@ -8,7 +8,6 @@
    Mocha        - #8C735E
 */
 
-
 /* top part*/
 #top {
     position: fixed;
@@ -21,6 +20,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+     border-bottom: 1px solid #D8C3A5;
 }
 
 #logo {
@@ -37,14 +37,13 @@
 .top.nav {
     color: #D8C3A5;
     padding-left: 10px;
-    gap: 40px;
+    gap: 3px;
     border-top: 20px;
     text-decoration: none;
     margin-left: auto;
     margin-right: 30px;
     font-size: 14px;
     display: inline-block;
-
 }
 
 .top.nav:hover{
@@ -60,15 +59,15 @@
     background-position: top;
     background-repeat: no-repeat;
     height: auto;
-    aspect-ratio: 16/9;
+    aspect-ratio: 1657/735;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    padding-left: 55px;
+    padding-left: 10%px;
     margin-top: 55px;
-    padding-top: 130px;
+    padding-top: 10%px;
 }
 
 
@@ -115,6 +114,8 @@
     margin: 7px 0;
 }
 
+
+
 nav {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -130,7 +131,28 @@ body{
     
 }
 
+.arr {
+    width: 240px;
+    height: 300px;
+    border-radius: 10%;
+    border: 1px solid #A68F78
+}
 
+#newArrivals {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+}
+
+.prodcard{
+    padding: 20px;
+    background-color: #D8C3A5;
+    border: 1px solid #A68F78;
+}
 
 main section {
     scroll-margin-top: 70px;
@@ -144,6 +166,7 @@ main section {
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 20px;
+    color: #30251F;
 }
 
 .mainParts::after , .mainParts::before{
@@ -167,13 +190,16 @@ main section {
 
 #sandS {
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
+    margin: 0 10%;
+    justify-content: center;
 }
 
-#about {
+#aboutsec {
     margin: 30px 100px;
     text-indent: 50px;
     color: #70513D;
+    text-align: justify;
 }
 
 .cards{
